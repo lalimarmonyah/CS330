@@ -36,3 +36,19 @@ Here are some valuable resources for learning C++:
 - [C++ Reference on cppreference.com](https://en.cppreference.com/w/)
 
 For an in-depth understanding of C++, you can also refer to Bjarne Stroustrup's textbook, "The C++ Programming Language, 4th Edition."
+
+
+## Getting Started
+
+Installation:
+
+ I chose VS Code for my IDE as I am most familiar with it. However, you can also use Eclipse, Atom, or any other IDE that supports C++.
+
+- First, check to see that you have a compiler installed. Clang may already be installed on your Mac, as it was for mine. To check, go to the terminal and type in "clang --version"
+- In VS Code, download C++. Then, go to the menu on the left side and click on where it says "Extensions"
+- Search for "C/C++" and install.
+- To run a program, create and save your file as a C++ file, meaning it should end with ".cpp". You should be able to click Run once the file is created
+- For code comments, just add a "//" at the beginning of the line.
+
+
+
