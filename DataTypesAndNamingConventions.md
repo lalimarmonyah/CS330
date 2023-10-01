@@ -11,6 +11,7 @@ name all functions similarly (only use camel case or snake case), and name class
 - Char is declared by putting single quotes while strings are created by putting double quotes.
 - A pointer is a variable that stores the memory address as its value.
   - Pointers are created by putting `*` after declaring the type and before the name of the variable. For example: `int* num = 0`.
+- All objects in C++ are mutable.
 
 ## Naming Conventions
 
@@ -39,9 +40,11 @@ name all functions similarly (only use camel case or snake case), and name class
 
 - Assignment Operator: =
 - Arithmetic Operators: +, -, *, /, %, ++, --
+- C++ supports both widening and narrowing conversion. For example, if you were to add an int and a double together, depending on if you declare the result as an int or double, it will support adding the two and either turn it into an int or a double.
 
 
 
 Sources:
 - [GeeksforGeeks - Naming Convention in C++](https://www.geeksforgeeks.org/naming-convention-in-c/)
 - [W3Schools - C++ Data Types](https://www.w3schools.com/cpp/cpp_data_types.asp)
+- [C++ Reserved Words](https://en.cppreference.com/w/cpp/keyword)
