@@ -1,4 +1,4 @@
-## Selection, Loops, and Conditions
+## Selection, Loops, and Conditionals
 
 What are the boolean values in your language? (e.g., True and False, true and false, 1, and 0, etc.) 
 - true and false, true returns 1 and false returns 0
