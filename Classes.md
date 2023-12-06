@@ -3,7 +3,7 @@
 **Objects and Naming Conventions:**
      C++ is an object-oriented programming language where everything is associated with classes and objects. Here's an example of creating a class and an object:
 
-     ```cpp
+     ```
      class MyClass {       // The class
        public:             // Access specifier
          int myNum;        // Attribute (int variable)
@@ -26,7 +26,7 @@
 
      Inside the class:
 
-     ```cpp
+     ```
      class MyClass {
        public:
          void myMethod() {
@@ -51,7 +51,7 @@
 **Constructor:**
      Example of a constructor in C++:     *include constructor definition*
 
-     ```cpp
+     ```
      class MyClass {
        public:
          MyClass() {
@@ -63,6 +63,7 @@
        MyClass myObj;  // Create an object of MyClass (this will call the constructor)
        return 0;
      }
+     ```
    
 **Access Specifiers:**
      Access specifiers determine how attributes and methods of a class can be accessed. There are three types: `public`, `private`, and `protected`.
@@ -82,7 +83,7 @@
      
      Example of single inheritance:
 
-     ```cpp
+     ```
      // Base class
      class Vehicle {
        public:
@@ -104,6 +105,7 @@
        cout << myCar.brand + " " + myCar.model;
        return 0;
      }
+     ```
    
      Multiple inheritance and multilevel inheritance are also supported.
      - Can also inherit from a class that already inherits from another class, a ‘grandchild’ class – called multilevel inheritance
