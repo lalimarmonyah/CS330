@@ -1,5 +1,7 @@
 *needs to be fixed*
 
+## Functions
+
 What is the syntax for declaring a function in your language?
 - To declare a function in C++, write in the data type of what you want the function to return, followed by the name of the function and a pair of parentheses. Afterwards, put curly brackets, which is the body of the function and where you will add code that defines what the function is supposed to do.
   
