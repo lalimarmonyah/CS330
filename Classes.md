@@ -24,7 +24,8 @@
 **Class Methods:**
      Methods can be defined inside or outside the class. Here are examples for both cases:
 
-     Inside the class:
+
+Inside the class:
 
      ```
      class MyClass {
@@ -35,9 +36,9 @@
      };
      ```
 
-     Outside the class:
+Outside the class:
 
-     ```cpp
+     ```
      class MyClass {
        public:
          void myMethod(); // Method/function declaration
