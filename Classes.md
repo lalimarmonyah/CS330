@@ -3,11 +3,10 @@
 **Objects and Naming Conventions:**
      C++ is an object-oriented programming language where everything is associated with classes and objects. Here's an example of creating a class and an object:
 
-     ```
-     class MyClass {       // The class
-       public:             // Access specifier
-         int myNum;        // Attribute (int variable)
-         string myString;  // Attribute (string variable)
+     class MyClass {        // The class
+       public:              // Access specifier
+         int myNum;         // Attribute (int variable)
+         string myString;   // Attribute (string variable)
      };
 
      int main() {
@@ -19,7 +18,6 @@
        cout << myObj.myString;
        return 0;
      }
-     ```
 
 **Class Methods:**
      Methods can be defined inside or outside the class. Here are examples for both cases:
@@ -27,18 +25,15 @@
 
 Inside the class:
 
-     ```
      class MyClass {
        public:
          void myMethod() {
            cout << "Hello World!";
          }
      };
-     ```
 
 Outside the class:
 
-     ```
      class MyClass {
        public:
          void myMethod(); // Method/function declaration
@@ -47,12 +42,10 @@ Outside the class:
      void MyClass::myMethod() {
        cout << "Hello World!";
      }
-     ```
 
 **Constructor:**
      Example of a constructor in C++:     *include constructor definition*
 
-     ```
      class MyClass {
        public:
          MyClass() {
@@ -64,13 +57,12 @@ Outside the class:
        MyClass myObj;  // Create an object of MyClass (this will call the constructor)
        return 0;
      }
-     ```
    
 **Access Specifiers:**
      Access specifiers determine how attributes and methods of a class can be accessed. There are three types: `public`, `private`, and `protected`.
-      Public - accessible outside the class
-      Private - cannot be viewed or accessed outside the class
-      Protected - can be accessed in inheritance classes, but cannot otherwise
+     - Public - accessible outside the class
+     - Private - cannot be viewed or accessed outside the class
+     - Protected - can be accessed in inheritance classes, but cannot otherwise
       
 *Note: Can access private members using public methods in the same class using encapsulation*
 
@@ -84,7 +76,6 @@ Outside the class:
      
      Example of single inheritance:
 
-     ```
      // Base class
      class Vehicle {
        public:
@@ -106,17 +97,14 @@ Outside the class:
        cout << myCar.brand + " " + myCar.model;
        return 0;
      }
-     ```
    
      Multiple inheritance and multilevel inheritance are also supported.
      - Can also inherit from a class that already inherits from another class, a ‘grandchild’ class – called multilevel inheritance
 
 Deriving from multiple classes:
 
-```
 class MyChildClass: public MyClass, public MyOtherClass {
 };
-```
 
 **Standard Methods for Functions in C++**       *move this section up before inheritance*
 
