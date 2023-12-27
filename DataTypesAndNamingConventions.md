@@ -18,6 +18,28 @@ Variable Declaration example:
     int num = 15;
     cout << "Your int number is: " << num << "\n";
 ```
+Output:
+```
+Your int number is: 15
+```
+
+Pointer Variable Demonstration:
+```
+    int x = 15;
+    cout << x << "\n";
+    int *y = &x;
+    cout << *y << "\n";
+    *y= 6;
+    cout << *y << "\n";
+```
+Output:
+```
+x: 15
+*y: 15
+*y again: 6
+```
+
+- after changing *y to 6, the value of x also becomes 6 since *y is pointing to the value that's at the address of x.
 
 ## Naming Conventions
 
