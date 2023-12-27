@@ -13,10 +13,11 @@ name all functions similarly (only use camel case or snake case), and name class
   - Pointers are created by putting `*` after declaring the type and before the name of the variable. For example: `int* num = 0`.
 - All objects in C++ are mutable.
 
-`
+Variable Declaration example:
+```
     int num = 15;
     cout << "Your int number is: " << num << "\n";
-`
+```
 
 ## Naming Conventions
 
