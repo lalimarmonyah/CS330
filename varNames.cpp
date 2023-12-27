@@ -9,7 +9,7 @@ int main(){
     // double - can store 15 decimal digits
     double doubleNum = 10.99;
     cout << "Your double number is: " << doubleNum << "\n";
-    // float - can strore 6-7 decimal digits
+    // float - can store 6-7 decimal digits
     float floatNum = 9.88;
     cout << "Your float number is: " << floatNum << "\n";
     // char - use single quotes
@@ -58,5 +58,7 @@ int main(){
     cout << w<<"\n";
     double r = 34.98 + 7;   // widening conversion
     cout << r << "\n";
+
+    return 0;
 
 }
